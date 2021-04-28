@@ -27,6 +27,7 @@ function activate(context) {
 
 		exec("cygwin", (stderr, stdout, error) => {
 			if (error) vscode.window.showErrorMessage("Cygwin not found. This extension require Cygwin to work.")
+			if (stderr) vscode.window.showErrorMessage("An error occurred.")
 		})
 	});
 

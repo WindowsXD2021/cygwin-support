@@ -16,8 +16,8 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "cygwin-support.helloWorld",
-				"title": "Hello World"
+				"command": "cygwin-support.connect",
+				"title": "Connect with Cygwin"
 			}
 		]
 	},
